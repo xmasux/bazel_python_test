@@ -7,7 +7,6 @@ from projectA.src.bar2 import is_palindrome
 
 
 @pytest.mark.parametrize("maybe_palindrome, expected_result", [
-    (),
     ("", True),
     ("a", True),
     ("Bob", True),
