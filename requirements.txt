@@ -1,0 +1,6 @@
+numpy
+pyyaml
+requests
+pytest
+xmlrunner
+unittest-xml-reporting
