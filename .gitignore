@@ -1,2 +1,5 @@
 ### Intellij
 .idea
+
+### Bazel output dir links
+bazel-*
