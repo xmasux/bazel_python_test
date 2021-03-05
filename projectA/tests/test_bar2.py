@@ -5,12 +5,15 @@ import pytest
 
 from projectA.src.bar2 import increment_sample
 
-
+"""
+Multiline comment
+"""
 def test_increment_sample():
     assert increment_sample() == 2.0
 
 
 class TestExample:
+    # single comment
     def test_increment_sample_in_class(self):
         assert increment_sample() == 2.0
 

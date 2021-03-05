@@ -18,13 +18,15 @@ from projectA.src.bar2 import is_palindrome
 def test_is_palindrome(maybe_palindrome, expected_result):
     assert is_palindrome(maybe_palindrome) == expected_result
 
-
+"""
+Multiline comment
+"""
 @pytest.mark.parametrize("y", [2, 3])
 @pytest.mark.parametrize("x", [0, 1])
 def test_foo(x, y):
     pass
 
-
+# single comment
 @pytest.mark.parametrize(
     "test_input,expected",
     [("3+5", 8), ("2+4", 6), pytest.param("6*9", 42, marks=pytest.mark.xfail)],
